@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+header {
+    background-color: #02181b;
+    color: #fafafa;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+.raças {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+article {
+    background-color: #5f706c;
+    border: 1px solid #dee7e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(63, 19, 19, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    width: 300px;
+    text-align: center;
+}
+
+article h2 {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+    color: rgb(4, 78, 72);
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+article p {
+    font-size: 1rem;
+    color: #eaf3f2;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.4rem;
+    background-color:black;
+    font-size: 13px;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
